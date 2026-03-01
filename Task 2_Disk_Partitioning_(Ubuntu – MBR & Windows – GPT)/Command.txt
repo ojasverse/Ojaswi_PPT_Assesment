@@ -1,0 +1,8 @@
+
+lsblk      # Check Available Disks
+sudo fdisk /dev/nvme1n1  # Open disk
+m        # help
+n        # new partition
+1        # partition number
++4G     # partition size
+w        # write changes & exit

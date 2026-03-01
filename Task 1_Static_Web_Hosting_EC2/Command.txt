@@ -1,0 +1,7 @@
+sudo apt update
+sudo apt install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+git clone https://github.com/ojasverse/QR-Generator.git
+cd QR-Generator
+sudo cp -r * /var/www/html
