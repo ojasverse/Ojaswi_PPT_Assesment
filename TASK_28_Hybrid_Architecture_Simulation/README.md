@@ -9,9 +9,9 @@ To simulate secure hybrid cloud architecture using:
 - Security Groups
 
 # Architecture Design
-sUser - Bastion Host - Private VM  
-The Bastion Host acts as a jump server to securely access the private instance.
-Private VM is NOT directly accessible from the internet.
+- User - Bastion Host - Private VM  
+- The Bastion Host acts as a jump server to securely access the private instance.
+- Private VM is NOT directly accessible from the internet.
 
 
 # Implementation Steps
